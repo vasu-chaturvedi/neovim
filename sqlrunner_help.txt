@@ -1,0 +1,13 @@
+require("sqlplus_runner").setup({ display = "vsplit" })
+export ORA_DSN="user/password@host:1521/ORCLPDB1"
+<leader>qs → run selection
+
+<leader>qc → selection → CSV
+
+<leader>qb → run buffer
+
+<leader>ql → run line
+
+<leader>qe → EXPLAIN PLAN (selection or current line)
+
+<leader>qd → DESC object (word under cursor or prompt)
